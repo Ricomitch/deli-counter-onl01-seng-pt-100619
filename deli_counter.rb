@@ -7,6 +7,8 @@ def line (katz_deli)
     katz_deli.each_with_index do |name, index|
     the_list.push("#{index + 1}. #{name}") 
 end
+  puts "The line is currently: #{the_list.join(" ")}"
+end
   
   
 def take_a_number (katz_deli,name)
@@ -23,6 +25,5 @@ def now_serving
     katz_deli.shift
   end  
 end
-    puts "The line is currently: #{the_list.join(" ")}"
-  end
+  
 end 
