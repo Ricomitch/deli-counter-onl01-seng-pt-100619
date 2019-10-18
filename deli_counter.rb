@@ -25,5 +25,4 @@ def now_serving
     katz_deli.shift
   end  
 end
-  
 end 
