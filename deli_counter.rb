@@ -23,7 +23,6 @@ def now_serving
     katz_deli.shift
   end  
 end
-
     puts "The line is currently: #{the_list.join(" ")}"
   end
 end 
